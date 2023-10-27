@@ -3,16 +3,16 @@ shopping_list = {
     "Piekarnia": ['Chleb', 'Pączek', 'Bułki', 'Drożdzówka' ],
     "Warzywniak": ['Marchew', 'Seler', 'Rukola', 'Sałata']
 }
-add_list = 0
+all_products = 0
 
 #Przeiterowanie po słowniku, oraz zmiana nazw na wielkie ltery 
 for shop, products in shopping_list.items():
     shop = shop.upper()
-    products = [product.upper() for product in products]
+    products = [product for product in products]
 
     print(f"Idę do {shop}, kupuję tu następujące rzeczy: {products}.")
 
 #suma produktów
-    add_list += len(products)
+    all_products += len(products)
 
-print(f"W sumie kupuję {add_list} produktów.")
+print(f"W sumie kupuję {all_products} produktów.")
