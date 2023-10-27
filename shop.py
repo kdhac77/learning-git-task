@@ -1,9 +1,9 @@
 #Lista produktów z piekarni i warzywniaka
 shopping_list = {
-    "Piekarnia": ['Chleb', 'Pączek', 'Bułki'],
-    "Warzywniak": ['Marchew', 'Seler', 'Rukola']
+    "Piekarnia": ['Chleb', 'Pączek', 'Bułki', 'Drożdzówka' ],
+    "Warzywniak": ['Marchew', 'Seler', 'Rukola', 'Sałata']
 }
-sum_list = 0
+add_list = 0
 
 #Przeiterowanie po słowniku, oraz zmiana nazw na wielkie ltery 
 for shop, products in shopping_list.items():
@@ -13,6 +13,6 @@ for shop, products in shopping_list.items():
     print(f"Idę do {shop}, kupuję tu następujące rzeczy: {products}.")
 
 #suma produktów
-    sum_list += len(products)
+    add_list += len(products)
 
-print(f"W sumie kupuję {sum_list} produktów.")
+print(f"W sumie kupuję {add_list} produktów.")
