@@ -1,6 +1,6 @@
 print("LISTA NA SOBOTNIE ŚNIADANIE")
 shopping_list = {
-    "Spożywczy": ['Chleb', 'Masło', 'Ser'],
+    "Piekarnia": ['Chleb', 'Pączek', 'Bułki'],
     "Warzywniak": ['Marchew', 'Pietruszka', 'Rukola', 'Sałata']
 }
 food_products = 0
@@ -16,3 +16,5 @@ for shop, products in shopping_list.items():
     food_products += len(products)
 
 print(f"W sumie kupuję {food_products} produktów.")
+
+print("Pozdrawiam czytelnika tego wspaniałego programu :)")
