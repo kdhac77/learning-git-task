@@ -1,6 +1,6 @@
 print("LISTA NA SOBOTNIE ŚNIADANIE")
 shopping_list = {
-    "Piekarnia": ['Chleb', 'Pączek', 'Bułki'],
+    "Spożywczy": ['Chleb', 'Masło', 'Ser'],
     "Warzywniak": ['Marchew', 'Pietruszka', 'Rukola', 'Sałata']
 }
 food_products = 0
