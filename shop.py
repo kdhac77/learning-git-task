@@ -1,4 +1,4 @@
-#Lista produktów z piekarni i warzywniaka
+print("LISTA NA SOBOTNIE ŚNIADANIE")
 shopping_list = {
     "Piekarnia": ['Chleb', 'Pączek', 'Bułki'],
     "Warzywniak": ['Marchew', 'Pietruszka', 'Rukola', 'Sałata']
